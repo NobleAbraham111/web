@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 15px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+    animation: fadeIn 1.5s;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.carousel {
+    max-width: 1000px;
+    margin: 30px auto;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    background: linear-gradient(135deg, #1565c0, #004ba0);
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    text-decoration: none;
+    
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+.image-container img {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-floating {
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.btn-floating:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.2);
+}
+
+.zoom-image {
+    transition: transform 0.3s ease;
+}
+
+.zoom-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.zoom-image {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.zoom-image:hover {
+    transform: scale(1.1);
+}
